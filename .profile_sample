@@ -1,0 +1,241 @@
+#!/bin/bash
+# Common profile for all hosts
+
+# Bring in the dev profile if it exists
+file=.dev_profile
+if [ -e $file ]
+then
+	source $file
+fi
+
+# Useful command aliases
+alias home="cd ~"
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# HOST ALIASES
+
+export HOST_alpha_old=devwww01.flickr.bf1.yahoo.com
+export HOST_alpha=devwww02.flickr.bf1.yahoo.com
+export HOST_back=backwww101.flickr.bf1.yahoo.com
+export HOST_stage=stgwww101.flickr.bf1.yahoo.com
+
+export HOST_cron=cron101.flickr.bf1.yahoo.com
+export HOST_cron101=cron101.flickr.bf1.yahoo.com
+export HOST_cron102=cron102.flickr.bf1.yahoo.com
+export HOST_cron103=cron103.flickr.bf1.yahoo.com
+export HOST_cronsubs=cron-subscription101.flickr.bf1.yahoo.com
+export HOST_cronviewbf1=cron-viewcount101.flickr.bf1.yahoo.com
+export HOST_cronviewgq1=cron-viewcount101.flickr.gq1.yahoo.com
+
+export HOST_openstack=oppressedunrest.corp.ne1.yahoo.com
+
+export HOST_gl1=gridlauncher1.flickr.ne1.yahoo.com
+export HOST_gl2=gridlauncher2.flickr.ne1.yahoo.com
+export HOST_gl3=gridlauncher2.flickr.ne1.yahoo.com
+
+export HOST_gl101=gridlauncher101.flickr.bf1.yahoo.com
+export HOST_gl102=gridlauncher102.flickr.bf1.yahoo.com
+export HOST_gl103=gridlauncher103.flickr.bf1.yahoo.com
+export HOST_per101=personalization101.flickr.bf1.yahoo.com
+export HOST_camera=camerarollfeeder101.flickr.bf1.yahoo.com
+
+export HOST_tiberium=tiberium-gw.tan.ygrid.yahoo.com
+
+export HOST_holt101=holtbookworker101.flickr.bf1.yahoo.com
+export HOST_holt102=holtbookworker102.flickr.bf1.yahoo.com
+
+alias sshflarbuild='ssh $HOST_openstack'
+alias sshalpha='ssh $HOST_alpha'
+alias sshbs='ssh $HOST_back'
+alias sshstage='ssh $HOST_stage'
+alias sshcron='ssh $HOST_cron'
+alias sshcron101='ssh $HOST_cron101'
+alias sshcron102='ssh $HOST_cron102'
+alias sshcron103='ssh $HOST_cron103'
+alias sshcronsub='ssh $HOST_cronsubs'
+alias sshcronviewbf='ssh $HOST_cronviewbf1'
+alias sshcronviewgq='ssh $HOST_cronviewbf1'
+
+alias sshgl1='ssh $HOST_gl1'
+alias sshgl2='ssh $HOST_gl2'
+alias sshgl3='ssh $HOST_gl3'
+alias sshgl101='ssh $HOST_gl101'
+alias sshgl102='ssh $HOST_gl102'
+alias sshgl103='ssh $HOST_gl103'
+alias sshper='ssh $HOST_per101'
+alias sshcamera='ssh $HOST_camera'
+
+alias sshholt101='ssh $HOST_holt101'
+alias sshholt102='ssh $HOST_holt102'
+
+# Others
+alias sshdeploy='ssh tools2.flickr.corp.bf1.yahoo.com'
+alias sshhoney='ssh honeycomb.data.ne1.yahoo.com'
+alias sshmart1='ssh dbmart1.flickr.ne1.yahoo.com'
+alias sshholt='ssh holtoflowworker101.flickr.bf1.yahoo.com'
+alias sshredisstatbf1='ssh redis-general127.flickr.bf1.yahoo.com'
+alias sshredisdev='ssh devredis02.flickr.bf1.yahoo.com'
+alias sshredisstatgq1='ssh redis-viewcount101.flickr.gq1.yahoo.com'
+alias sshredisaggbf1='ssh redis-general121.flickr.bf1.yahoo.com'
+alias sshredisagggq1='ssh redis-general108.flickr.gq1.yahoo.com'
+alias sshredisperbf1='ssh redis-general125.flickr.bf1.yahoo.com'
+
+alias sshvertigo='ssh vertigo.flickr.corp.bf1.yahoo.com'
+alias sshbuild='ssh build2.flickr.corp.bf1.yahoo.com'
+alias sshos1='ssh amusedperused.corp.gq1.yahoo.com'
+alias ssh_mydev='ssh devwww106.flickr.bf1.yahoo.com'
+alias sshflog1='ssh flog1.flickr.bf1.yahoo.com'
+alias sshflog101='ssh flog101.flickr.gq1.yahoo.com'
+alias sshflog4='ssh flog4.flickr.bf1.yahoo.com'
+alias sshtableau='ssh flog4.flickr.bf1.yahoo.com'
+
+# GRID SSH
+alias sshztg='ssh zanium-gw.tan.ygrid.yahoo.com'
+alias sshutg='ssh uranium-gw.tan.ygrid.yahoo.com'
+alias sshttg='ssh $HOST_tiberium'
+alias sshbtg='ssh bassnium-gw.tan.ygrid.yahoo.com'
+
+# Db aliases
+
+alias db_mining='mysql -uwww-r -p -hdbmining01.flickr.bf1.yahoo.com -DFlaux -A'
+alias db_flaux='mysql -uwww-r -p -hdbflauxA02RN01.flickr.bf1.yahoo.com -DFlaux -A'
+alias db_aux='mysql -uwww-r -p -hdbauxa01.flickr.bf1.yahoo.com -P3306 -DAux1 -A'
+alias db_auxw='mysql -uwww-rw -p -hdbauxa01.flickr.bf1.yahoo.com -P3306 -DAux1 -A'
+alias db_contacts='mysql -uwww-r -p -hdbcontacts101.flickr.bf1.yahoo.com -DFlickrContacts -A'
+alias db_photos='mysql -uwww-r -p -hdbflotosa01.flickr.bf1.yahoo.com -DFloto -A'
+
+# User shards
+
+alias db_shard_6='mysql -uwww-r -p -hdbuser006A01 -DFlickrUserShard -A'
+alias db_shard_6='mysql -uwww-r -p -hdbuser006A01 -DFlickrUserShard -A'
+
+export WWW_FLICKR_HOME=/var/www/html/www.flickr.com
+export DEV_FLICKR_HOME=/var/www/html/dev.flickr.com
+
+##################### FUNCTIONS ##########################
+function deploy_profile() {
+	deploy_profile_to $HOST_gl1
+	deploy_profile_to $HOST_gl2
+	deploy_profile_to $HOST_gl3
+	deploy_profile_to $HOST_gl101
+	deploy_profile_to $HOST_gl102
+	deploy_profile_to $HOST_gl103
+	deploy_profile_to $HOST_per101
+	deploy_profile_to $HOST_camera
+	deploy_profile_to $HOST_alpha
+	deploy_profile_to $HOST_back
+	deploy_profile_to $HOST_cron
+	deploy_profile_to $HOST_cron101
+	deploy_profile_to $HOST_cron102
+	deploy_profile_to $HOST_cron103
+	deploy_profile_to $HOST_sshcronsub
+	deploy_profile_to $HOST_tiberium
+	deploy_profile_to $HOST_holt102
+	deploy_profile_to $HOST_holt101
+	deploy_profile_to $HOST_cronviewbf1
+	deploy_profile_to $HOST_cronviewgq1
+}
+
+function deploy_profile_to() {
+	scp ~/.profile $1:~
+}
+
+function deploy_key_tab_to(){
+	scp ~/keytabs/* $1:~
+}
+
+function get_headless_keytab() {
+	sudo cp /home/$1/$1.prod.headless.keytab /tmp/$1.prod.headless.keytab
+	sudo chown `whoami` /tmp/$1.prod.headless.keytab
+	cp /tmp/$1.prod.headless.keytab ~/.
+	rm /tmp/$1.prod.headless.keytab
+	chmod 400 ~/$1.prod.headless.keytab
+}
+
+function setup_grid() {
+	echo "Setting up grid ..."
+	alias kiflar='kinit flar@YGRID.YAHOO.COM -k -t ~/flar.prod.headless.keytab'
+	alias kiflickgr='kinit flickgr@YGRID.YAHOO.COM -k -t ~/flickgr.prod.headless.keytab'
+	alias kime='kinit $LOGNAME@Y.CORP.YAHOO.COM'
+
+	alias hdfs='hadoop fs'
+
+	export HADOOP_HOME=/home/y/share/hadoop
+	export HADOOP_PREFIX=/home/y/share/hadoop
+	export HADOOP_CONF_DIR=/home/y/conf/hadoop
+	export HADOOP_HOME_WARN_SUPPRESS=true
+
+	export HBASE_HOME=/home/y/libexec/hbase
+	export HBASE_CONF_DIR=/home/y/libexec/hbase/conf
+	export JAVA_HOME=/home/y/share/yjava_jdk/java
+
+	export PATH=/home/y/bin64:/home/y/bin:/usr/kerberos/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/gs/java/jdk/bin:/home/gs/hadoop/current/bin:/home/gs/hbase/current/bin:/home/gs/pig/bin:/home/gs/pig/current/bin:/home/y/var/yoozieclient/bin:/gridtools/generic/bin:/home/y/var/yoozieclient/bin/:$PATH
+
+	alias setGridFlar='export GRIDUSER=flar'
+	alias setGridFlickgr='export GRIDUSER=flickgr'
+
+	case $(hostname) in
+		gridlauncher*.flickr.ne1.yahoo.com ) export OOZIE_URL=http://tiberiumtan-oozie.tan.ygrid.yahoo.com:4080/oozie/ ;;
+		gridlauncher103.flickr.bf1.yahoo.com ) export OOZIE_URL=http://bassniumred-oozie.red.ygrid.yahoo.com:4080/oozie/ ;;
+		personalization101.flickr.bf1.yahoo.com ) export OOZIE_URL=http://bassniumred-oozie.red.ygrid.yahoo.com:4080/oozie/ ;;
+	esac
+
+	export OOZIE_AUTH=KERBEROS
+
+	export GRIDUSER=flickgr
+	alias ojinfo='oozie job -doas $GRIDUSER -info'
+	alias ojlog='oozie job -doas $GRIDUSER -log'
+	alias ojrun='oozie job -doas $GRIDUSER -run -config'
+	alias ojkill='oozie job -doas $GRIDUSER -kill'
+	alias ojlist='oozie jobs -doas $GRIDUSER -filter status=RUNNING -filter user=$GRIDUSER'
+
+	echo "Setup complete."
+}
+
+function setup_local() {
+	export JAVA_HOME="$(/usr/libexec/java_home)"
+
+	export HADOOP_HOME=~/hadooptools/hadoop
+	export HBASE_HOME=~/hadooptools/hbase
+	alias hstart="$HADOOP_HOME/sbin/start-dfs.sh;$HADOOP_HOME/sbin/start-yarn.sh;$HBASE_HOME/bin/start-hbase.sh"
+	alias hstop="$HBASE_HOME/bin/stop-hbase.sh;$HADOOP_HOME/sbin/stop-yarn.sh;$HADOOP_HOME/sbin/stop-dfs.sh"
+}
+
+case $(hostname) in
+	gridlauncher* ) setup_grid ;;
+	enrichmentfeeder* ) setup_grid ;;
+	camerarollfeeder* ) setup_grid ;;
+	personalization* ) setup_grid ;;
+	vouchbreak-lm ) setup_local ;;
+esac
+
+
+################       GIT      #######################################
+#alias g='git'
+# Autocomplete for 'g' as well
+#complete -o default -o nospace -F _git g
+
+source ~/.git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
+GIT_PS1_SHOWDIRTYSTATE=true
+#export PS1='[\u@mbp \w$(__git_ps1)]\$ '
+
+
+function parse_git_branch () {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+RED="\[\033[0;31m\]"
+YELLOW="\[\033[0;33m\]"
+GREEN="\[\033[0;32m\]"
+BLUE="\[\033[0;34m\]"
+NO_COLOR="\[\033[0m\]"
+
+PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
+#PS1="$RED\h$NO_COLOUR: $BLUE\w $GREEN\$(parse_git_branch)$NO_COLOUR \$ "
+
+
+
+# added by Anaconda2 4.0.0 installer
+# export PATH="/Users/mehulpatel/anaconda/bin:$PATH"
