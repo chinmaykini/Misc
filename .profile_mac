@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1_8_0_5.jdk/Contents/Home
+export JDK_HOME=/Library/Java/JavaVirtualMachines/jdk1_8_0_5.jdk/Contents/Home
+
+export HOST_holdemgw01=ltx1-holdemgw01.grid.linkedin.com
+
+alias sshholdemgw='ssh $HOST_holdemgw01'
+
+export PATH=$JAVA_HOME/bin:/export/content/linkedin/bin:$PATH
