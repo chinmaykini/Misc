@@ -1,0 +1,792 @@
+pwd
+which mint
+pwd
+mkdir WorkspaceCompany
+cd WorkspaceCompany/
+mint -h 
+mint checkout organization-api-frontend
+cd
+ls -lart
+cd .ssh/
+ls -lrt
+ssh acctmgr.corp.linkedin.com
+cd
+ssh acctmgr.corp.linkedin.com
+hostname
+ls -lrt
+xs .ssh/
+cd .ssh/
+ls -lrt
+cd
+cd WorkspaceCompany/
+mint checkout organization-api-frontend
+ls -lrt
+pwd
+ls -rlt
+ls -lrt
+cd organization-api-frontend_trunk/
+mint build 
+which java
+echo 4PATH
+echo $PATH
+cd /usr/bin/java
+ls -lart /usr/bin/java
+cd /etc/alternatives/jav
+cd /etc/alternatives/java
+ls -lart /etc/alternatives/java
+which yum 
+vim readme
+vim README.md 
+yum list installed 
+yum list installed | grep LNKD-JDK
+echo $JAVA_HOME
+cd
+vim .bashrc 
+vim .bash_profile 
+echo $JAVA_HOME
+cd WorkspaceCompany/
+echo $JAVA_HOME
+which java
+cd
+ls -lart
+echo $JAVA_HOME
+cat .bash_profile 
+which java
+cd WorkspaceCompany/organization-api-frontend_trunk/
+pwd
+mint build 
+yum list | grep LNKD-JDK
+ym install LNKD-JDK8u5
+yum install LNKD-JDK8u5
+sudo yum install LNKD-JDK8u5
+mint build 
+ls -lrt
+cat README.md 
+cd build/
+ls -lrt
+cd ..
+yum install LNKD-JDK8u5
+yum install LNKD-JDK8u72
+sudo yum install LNKD-JDK8u72
+yum list | grep LNKD-JDK
+cd
+vim .bash_profile 
+cat .bash_profile 
+ls -lart /export/apps/jdk
+vim .bash_profile 
+source .bash_profile 
+cd WorkspaceCompany/organization-api-frontend_trunk/
+mint build 
+play run 
+cd
+cd WorkspaceCompany/
+rm -rf .idea .idea_modules *.iml *.ipr *.iws .settings
+cd organization-api-frontend_trunk/
+play run 
+cd
+cd .sbt/liplay/
+ls -lrt
+cd
+cd WorkspaceCompany/organization-api-frontend_trunk/
+ls -lrt
+play run 
+hostname
+cd
+pwd
+sudo yum install vnc-server
+vncserver :2 -geometry 1920x1150 &
+First@683
+vncserver :2 -geometry 1920x1150 &
+ghjv
+vncserver  -geometry 1920x1150 &
+chinmay
+ps -ef | grep vnc
+vncviewer
+hostname
+kill -9 58710
+ps -ef | grep vnc
+kill -9 58725
+kill -9 58731
+ps -ef | grep vnc
+kill -9 58733
+kill -9 58739
+ps -ef | grep vnc
+kill -9 58742
+ps -ef | grep 
+ps -ef | grep vnc
+vncserver :2 -geometry 1920x1150 &
+chinmay
+ps -ef | grep vnc
+hostname
+vncserver -geometry 1920x1150 -alwaysshared
+ps -ef | grep vnc
+kill -9 58847
+ps -ef | grep vnc
+vncviewer
+ps -ef | grep vnc
+kill -9 58878
+ps -ef | grep vnc
+cd /etc/gdm/Init/
+vim Default 
+sudo vim Default 
+sudo vncserver -geometry 1920x1150 -alwaysshared
+ps -ef | grep vnc 
+kill -9 67008
+sudo kill -9 67008
+ps -ef | grep vnc 
+cat /etc/gdm/Init/Default 
+sudo vi /etc/gdm/custom.conf 
+v
+sudo vino-preferences
+pwd
+ls -lart
+vi .bashrc 
+vi .bash_profile 
+cd WorkspaceCompany/
+ls -lrt
+mint checkout voyager-api
+history 
+cd voyager-api_trunk/
+mint build 
+cd
+cat .bash_profile 
+vi .profile
+vim .bash_profile 
+source .bash_profile 
+pwd
+cd
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+pwd
+exit
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328"
+ls -lrt
+vi .profile 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo rm -rf /home/ckini/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+which bach 
+which bash 
+usermod -s /bin/bash ckini
+exit
+pwd
+zsh 
+ls -lart
+ls -lrt .zshrc
+cat .zshrc
+ls -lart
+source .zshrc
+vim .profile 
+source .profile 
+exit
+source .profile 
+vim .bashrc 
+vim .bash_profile 
+vim .bashrc 
+cat .zshrc.pre-oh-my-zsh 
+echo $ZSH
+which git 
+cd /usr/local/etc/
+ls -lrt
+cd
+exit
+zsh
+zsh 
+zsh
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328"
+ssh-range -f EI3 talent-brand-backend -j
+ssh acctmgr.corp.linkedin.com
+hliu1Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the plugins directory and/or the wiki to see what's currently available.cczc
+cc
+
+cd WorkspaceCompany/
+ls -lrt
+cd voyager-api_trunk/
+mint build
+git commit -a 
+history | grep update 
+git review update -r 886914
+git commit -a 
+git review update -r 886914
+mint build 
+git commit -a 
+git review update -r 886914
+mint build 
+exit
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&timeIntervals.timeRange.start=1478753558448&timeIntervals.timeRange.end=1479444758448"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&timeIntervals.timeRange.start=1478753558448&timeIntervals.timeRange.end=1479444758448&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&timeIntervals.timeGranularityType.MONTH&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&timeIntervals.timeGranularityType.MONTH=01&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&&viewer=urn:li:member:5934328&timeIntervals.timeGranularityType=MONTH&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&viewer=urn:li:member:5934328&timeIntervals.timeGranularityType=MONTH&timeIntervals.timeRange.start=1478753558448&timeIntervals.timeRange.end=1479444758448&fields=totalFollowerCounts"
+curli --user urn:li:member:5934328 --password password "d2://organizationalEntityFollowerStatistics?organizationalEntity=urn:li:organization:1000&q=organizationalEntity&viewer=urn:li:member:5934328&timeIntervals.timeGranularityType=DAY&timeIntervals.timeRange.start=1478753558448&timeIntervals.timeRange.end=1479444758448&fields=totalFollowerCounts"
+pwd
+cd WorkspaceCompany/voyager-api_trunk/
+cd
+ls -lrt
+ls -lart
+ls -laer .profile 
+cat .profile 
+cat .bashrc 
+zsh
+vi, .zshrc
+vim .zshrc
+source .zshrc
+pwd
+cd WorkspaceCompany/
+cd voyager-api_trunk/
+zsh
+pwd
+history 
+zsh 
+cd WorkspaceCompany/voyager-api_trunk/
+hostname
+cd WorkspaceCompany/
+cd voyager-api_trunk/
+play run 
+cd WorkspaceCompany/voyager-api_trunk/
+play run 
+mint clean && mint build 
+cd WorkspaceCompany/voyager-api_trunk/
+mint clean && mint build 
+cd WorkspaceCompany/voyager-api_trunk/
+play run 
+play -jvm-debug run
+mint build 
+curl -X GET -H "csrf-token: ajax:5806392646015039451" -H "X-Restli-Protocol-Version: 2.0.0" -H "Cache-Control: no-cache" -H "Postman-Token: b5fad13b-7625-8cbf-4c0b-9f3c4fe79699" "https://www.linkedin-ei.com/voyager/api/voyagerOrganizationCompanies/1000"
+curl -X GET -H "Csrf-Token: ajax:5806392646015039451" -H "X-Restli-Protocol-Version: 2.0.0" -H "Cache-Control: no-cache" -H "Postman-Token: 20759dad-0af1-2d4d-8109-cd263e927e66" "https://www.linkedin-ei.com/voyager/api/voyagerOrganizationCompanies/1000"
+curli "https://www.linkedin-ei.com/voyager/api/voyagerOrganizationCompanies/1000" --with-csrf
+curli "https://www.linkedin-ei.com/voyager/api/voyagerOrganizationCompanies/1000" --cookie "JSESSIONID=ajax:5806392646015039451" --header "Csrf-Token: ajax:5806392646015039451"
+host ckini-ld1.linkedin.biz
+hostname
+host
+netstat
+ifconfig
+ifconfig | grep inat
+ifconfig | grep inet
+hostname
+host ckini-ld1.linkedin.boz
+host ckini-ld1.linkedin.biz
+ifconfig | grep inet
+sudo yum install nxsserver
+sudo yum install nxserver
+$ sudo sed -i 's/ssh_access:x:502:corp_sysops,liadmin/ssh_access:x:502:corp_sysops,liadmin,nx/' /etc/group
+sudo sed -i 's/ssh_access:x:502:corp_sysops,liadmin/ssh_access:x:502:corp_sysops,liadmin,nx/' /etc/group
+cd WorkspaceCompany/voyager-api_trunk/api/src/idl/
+ls -lrt
+ls -lrt *rest*
+ls -lrt *PageVisitorTr*
+pwd
+ls -lrt *PageVisi*
+rm -rf com.linkedin.voyager.organization.analytics.voyagerOrganizationPageVisitorTrafficStatistics.restspec.json
+ls -lrt *PageVisi*
+rm com.linkedin.voyager.organization.analytics.voyagerOrganizationPageVisitorTrafficStatistics.restspec.json
+ls -lrt *PageVisi*
+rm 'com.linkedin.voyager.organization.analytics.voyagerOrganizationPageVisitorTrafficStatistics.restspec.json'
+ls -lrt
+rm *PageVisitorDemo*
+ls -lrt
+ls -lrt *PageVisitor*
+zsh
+v
+pwd
+ls -lart
+cd
+pwd
+ls -lart
+fish 
+zsh
+zsh 
+cd WorkspaceCompany/
+zsh
+zsh 
+zsh 
+zdh 
+zsh
+zsh 
+pwd
+mint stylecheck
+zsh 
+pwd
+mint stylecheck
+ssh en
+zsh 
+zsh
+zsh
+zsh
+zsh 
+zsh 
+zsh
+zsh 
+zsh
+zsh 
+zsh 
+zsh
+zsh
+zsh 
+sudo yum install LNKD-intellij-2017.1
+cd /export/apps/xtools/LNKD-intellij-2017.1/bin
+ls -lrt
+pwd
+cd ../../LNKD-intellij-2016.3/bin/
+ls -lrt
+cat idea64.vmoptions
+cd ../../LNKD-intellij-2017.1/bin/
+ls -lrt
+cat idea64.vmoptions
+zsh
+zsh 
+zsh
+zsh 
+zsh 
+zsh 
+zsh
+zsh 
+zsh 
+exit
+zsh 
+ssh ltx1-holdemgw01.grid.linkedin.com
+ping ltx1-holdemgw01.grid.linkedin.com
+ssh ltx1-holdemgw01.grid.linkedin.com
+zsh 
+zsh 
+scripts/pylene/bin/seas-hdfs get --path /jobs/galene/index/examples/prod_0.1.725-SNAPSHOT_2017-04-27-17/index/i000 --local_path ~/examples-index
+cd workspace/seas-examples_trunk/
+scripts/pylene/bin/seas-hdfs get --path /jobs/galene/index/examples/prod_0.1.725-SNAPSHOT_2017-04-27-17/index/i000 --local_path ~/examples-index
+ssh eng-portal
+ssh acctmgr.corp.linkedin.com
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":2}, "queryContext":{ "rewrittenQuery": "+parentCategories:urn\\:li\\:lyndacategory\\:29"}}}'
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}'
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+zsh 
+ curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curl 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+hostname
+curli 'http://ckini-ld1.linkedin.biz:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":2}, "queryContext":{ "rewrittenQuery": "+parentCategories:urn\\:li\\:lyndacategory\\:29"}}}'
+curli 'http://ckini-ld1.linkedin.biz:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+zsh 
+curli 'http://ckini-ld1.linkedin.biz:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+history | grep currli 
+history | grep curli 
+curli 'http://ckini-ld1.linkedin.biz:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://ckini-ld1.linkedin.biz:15398/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+ curli 'http://ckini-ld1.linkedin.biz:15398/seas-job-broker/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}} 
+zsh: no matches found: {"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}{value:elements:[staticRank:0]}
+ curli 'http://ckini-ld1.linkedin.biz:15398/seas-job-broker/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}'
+
+
+ls -lart
+cd .ssh/
+vim config 
+cd ..
+ssh-range -f ei-ltx1 seas-job-broker
+mssh -f ei-lca1 -c seas-job-broker 'grep sfOFfaqbuhSANcsOHisAAA== /export/lid/apps/seas-job-broker/i000/logs/seas-broker_querylog.log'
+ssh-range -f ei-ltx1 seas-job-broker
+mssh -f ei-lca1 -c seas-job-broker 'grep sfOFfaqbuhSANcsOHisAAA== /export/content/lid/apps/seas-job-broker/i000/logs/seas-broker_querylog.log'
+
+ssh eng-portal
+ssh eng-portal
+ssh-range -f prod-lva1 seas-job-broker
+ssh eng-portal 
+zsh 
+top
+free
+top
+zsh 
+ssh-range -f  ei-lca1 seas-job-searcher
+zsh 
+zsh
+curli 'http://ckini-ld1.linkedin.biz:15398/seas-job-broker/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+cat ~/queryLogs/seas-broker_querylog.log| ./scripts/pylene/bin/seas-querylog2loadgen -u http://localhost:15398/seas-broker/search\?action\=search | ./scripts/pylene/bin/loadgen -c 4 > results.loadgen
+zsh 
+zsh 
+zsh 
+cd queryLogs/
+zsh 
+history | grep curli 
+curli 'ltx1-app15182.prod.linkedin.com:15398/seas-job-broker/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://ltx1-app15182.prod.linkedin.com:15398/seas-job-broker/search?action=search' -H 'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+app-status -f prod-ltx1 seas-palpatine-searcher 
+app-status -f prod-ltx1 seas-palpatine-broker
+v
+curli -X POST -H "X-HTTP-Method-Override: GET" -H "Content-Type: application/x-www-form-urlencoded" --data $'ids=urn:li:jobPosting:56447411&ids=urn:li:jobPosting:113084879&ids=urn:li:jobPosting:122771831&ids=urn:li:jobPosting:122774261' "http://ltx1-app22431.prod.linkedin.com:2844/jobs-pacing/jobPacingScores"
+curli -X POST -H “X-HTTP-Method-Override: GET” -H “Content-Type: application/x-www-form-urlencoded” --data $‘ids=urn:li:jobPosting:56447411&ids=urn:li:jobPosting:113084879&ids=urn:li:jobPosting:122771831&ids=urn:li:jobPosting:122774261’ “http://tx1-app22431.prod.linkedin.com:2844/jobs-pacing/jobPacingScores”
+ssh eng-portal 
+zsh 
+cd queryLogs/
+ls -lart
+vim seas-broker_querylog.log
+zsh 
+vi .profile 
+vim .bashrc 
+vim .bash_profile 
+vim .bashrc 
+source .bash_profile 
+zsh 
+zsh 
+curli -X POST -H "X-HTTP-Method-Override: GET" -H "Content-Type: application/x-www-form-urlencoded" --data $'ids=urn:li:jobPosting:56447411&ids=urn:li:jobPosting:113084879&ids=urn:li:jobPosting:122771831' 'http://ltx1-app16020.prod.linkedin.com:2844/jobs-pacing/jobPacingScores'
+curli -X POST -H "X-HTTP-Method-Override: GET" -H "Content-Type: application/x-www-form-urlencoded" --data $'ids=urn:li:jobPosting:56447411&ids=urn:li:jobPosting:113084879&ids=urn:li:jobPosting:122771831' "http://ltx1-app16020.prod.linkedin.com:2844/jobs-pacing/jobPacingScores"
+curli -X POST -H "X-HTTP-Method-Override: GET" -H "Content-Type: application/x-www-form-urlencoded" --data 'ids=urn:li:jobPosting:56447411&ids=urn:li:jobPosting:113084879&ids=urn:li:jobPosting:122771831' "http://ltx1-app16020.prod.linkedin.com:2844/jobs-pacing/jobPacingScores"
+ping ltx1-app16020.prod.linkedin.com
+vim a.txt
+zsh 
+subl
+cd .config/
+ls -lart
+sshexit
+exit
+cd workspace/seas-federated-search_trunk/
+zsh 
+pwd
+cd workspace/
+ls -lart
+cd ..
+mkdir tmp
+cd tmp 
+mint checkout seas-job 
+exit 
+chrome 
+zsh 
+mkdir tmp 
+cd tmp/
+mint checkout 
+mint checkout seas-job
+pwd
+cd workspace/
+ls -lart
+pwd
+cd workspace/
+which idea 
+pwd
+ls -lart
+cd seas-federated-search_trunk/
+idea . 
+cd tmp 
+ls -lart
+rm -rf *
+ls -lart
+mint checkout seas-job 
+exit
+zsh 
+mssh -fg ei -c seas-job-broker 'grep "Ovc9MQdaxRQA6Ud3eysAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*'
+vim .profile
+vim .bash_profile 
+zsh 
+ls -lart 
+hostname
+mkdir temp 
+mkdir tmp 
+pwd
+cd
+pwd
+mkdir tmp 
+cd tmp 
+ls -lart
+rm -rf * 
+git checkout seas-job 
+mint checkout seas-job 
+ls -lart
+rm -rf * 
+ls -lart
+cd ..
+zsh 
+cd workspace/seas-federated-search_trunk/
+svn status 
+cd config/
+svn status 
+svin commit -r 1011754
+zsh 
+cd workspace/federated-search-rest_trunk/
+pwd
+mint precommit 
+zsh 
+cd workspace/
+ls -lart
+cd federated-search-rest_trunk/
+pwd
+cd workspace/
+cd federated-search-rest_trunk/
+zsh 
+zh 
+zsh 
+pwd
+cd workspace/pylene_trunk/
+echo 'http://www.google.com' | pylene-lib/src/linkedin/pylene/loadgen.py
+echo 'http://www.google.com' | sudo pylene-lib/src/linkedin/pylene/loadgen.py
+echo 'http://www.google.com' | sudo pythin pylene-lib/src/linkedin/pylene/loadgen.py
+echo 'http://www.google.com' | sudo python pylene-lib/src/linkedin/pylene/loadgen.py
+echo 'http://www.google.com' | sudo python ./pylene-lib/src/linkedin/pylene/loadgen.py
+pwd
+source pylene/activate 
+echo 'http://www.google.com' | python ./pylene-lib/src/linkedin/pylene/loadgen.py
+echo 'http://www.google.com' | python ./pylene-lib/src/linkedin/pylene/loadgen.py --restli
+echo 'http://www.google.com' | python ./pylene/src/linkedin/pylene/loadgen.py --restli
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py --restli
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py -q
+deactivate
+ligradle build -x check
+source pylene/activate 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py -q
+echo 'http://www.google.com' | ./pylene/src/linkedin/loadgen.py -q
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py -q
+cat ~/tools/pageStat.py 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py -q
+pwd
+ligradle build -x check
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py -q
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+echo 'http://www.google.com' | python ./pylene-lib/src/linkedin/pylene/loadgen.py 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+dactivate
+deactivate
+source pylene/activate 
+which python
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+python 
+deactivate
+source pylene-lib/activate 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+which python 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+mint build 
+cd build 
+ls -lart
+cd pylene-lib/
+ls -lart
+cd distributions/
+ls -lart
+cd ..
+cd pylene
+ls -lart
+cd deployable/bin/
+ls -lart
+cd ..
+ls -lart
+pwd
+cd ..
+rm -rf build
+deactivate 
+source pylene-lib/activate 
+pwd
+source pylene-lib/activate 
+cd pylene-lib/
+ls -lart
+cd ..
+mint build 
+rm -rf build
+ligradle build -x check
+cd build/
+ls -lart
+cd ..
+source pylene/activate 
+cd build/pylene/venv/bin/
+ls -lart
+echo 'http://www.google.com' | loadgen 
+ls -lart
+echo 'http://www.google.com request' | loadgen 
+echo 'http://www.google.com' | loadgen 
+pwd
+cd ..
+pwd
+cd ../..
+ls -lart
+pwd
+cd ..
+echo 'http://www.google.com request' | loadgen 
+ls -lart
+
+echo 'http://www.google.com' | loadgen 
+echo 'http://www.google.com' | python ./pylene/src/linkedin/loadgen.py 
+deactivate 
+echo 'http://www.google.com' | ./pylene_trunk/build/pylene/venv/bin/loadgen 
+echo 'http://www.google.com result' | ./pylene_trunk/build/pylene/venv/bin/loadgen 
+echo 'http://www.google.com' | loadgen 
+zsh 
+zsh 
+cd
+source .bashrc 
+zsh 
+mssh -fg ei -c seas-job-broker 'grep "x83GYF36xRTAHzBr0SoAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*' 
+ssh-add -l 
+mssh -f ei-lca1 -c seas-job-broker 'grep "x83GYF36xRTAHzBr0SoAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*' 
+mssh -f ei-ltx1 -c seas-job-broker 'grep "x83GYF36xRTAHzBr0SoAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*' 
+mssh -f ei-ltx1 -c seas-job-broker 'grep "zLRMN9b6xRTApvGb0SoAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*' 
+mssh -f ei-lca1 -c seas-job-broker 'grep "zLRMN9b6xRTApvGb0SoAAA" /export/content/lid/apps/seas-job-broker/i000/logs/*' 
+zsh 
+which java 
+pwd
+cd workspace/
+cd federated-search-rest_trunk/
+zsh 
+tail -f  /home/ckini/.kafka-tool/kafka-tool.log
+cd /export/content/lid/logs/federated-search-rest-mp/i001/
+ls -lart
+ls -lart *public*
+tail -f federated-search-rest-mp_public_access.log
+ls -lart
+grep BHXmBZYF0RSA5UEmvioAA *
+ls -lart
+grep BHXmBZYF0RSA5UEmvioAAA *.log
+grep pUF0RTAA0IpvioAAA *
+zsh 
+which jq
+cat events.out 
+vim data.txt 
+vim a.txt
+zsh 
+history | grep curli 
+zsh 
+curli "d2://prospectCommHistory?q=criteria&contract=urn:li:contract:4284280" --fabric ei-lca1
+curli "d2://capContractPrefs/92034035?contract=urn:li:contract:92034035" --fabric ei-lca1
+ls -lart
+vim data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.tx
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+vim da
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fg ei  -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn:li:member:9999" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn:li:member:5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobs-billing/jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli --pretty-print "d2://jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting"-X GET -H 'X-RestLi-Protocol-Version: 2.0.0'
+curli --pretty-print "d2://jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.
+curli --pretty-print "d2://jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0'
+curli --pretty-print "d2://jobs-billing/jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0'
+curli --pretty-print "d2://jobs-billing/jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0' --fabric ei-lca1 
+curli --pretty-print "d2://jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0' --fabric ei-lca1 
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli --pretty-print "d2://jobs-billing/jobsTargetingSegments?jobPostingUrn=urn%3Ali%3AjobPosting%3A1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0' --fabric ei-lca1 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobs-billing/jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobs-billing/jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://chinmayjobs-billing/jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-ltx1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli -i --fabric ei-lca1 "d2://ESPRESSO_MT2/jobs-billing/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -i --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" -d data.txt
+curli -i --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -i --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --d@data.txt
+curl -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" -d@data.txt
+curl -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" -d @data.txt
+curl -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -iv --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -iv --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn\:li\:jobPosting\:1234"
+curl "https://lca1-espresso-router-router-ssl-mt2-vip.stg.linkedin.com:11937
+curl "https://lca1-espresso-router-router-ssl-mt2-vip.stg.linkedin.com:11937/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curl "d2://JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli "d2://JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -i --fabric ei-lca1 "d2://JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -i --fabric ei-lca1 "d2://JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234"
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234" -X GET 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn%3Ali%3AjobPosting%3A1234%22" -X GET 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234" -X GET 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0'
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments?jobPostingUrn=urn:li:jobPosting:1234&q=jobPosting" -X GET -H 'X-RestLi-Protocol-Version: 2.0.0'
+curli -i --fabric ei-lca1 "d2://JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+curli -iv --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234"
+history | grep ESPR
+curl -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -iv -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+curli -iv -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+vim data.txt 
+curli -iv -X POST --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+vim data.txt 
+curli -iv -X PUT --fabric ei-lca1 "d2://ESPRESSO_MT2/JobsBillingDB/JobsTargetingSegment/urn:li:jobPosting:1234" --data @data.txt
+vim data.txt 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234" -X GET 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+history | grep viewer=urn
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn:li:member:5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn:li:member:5934328" --fabric ei-lca1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-ltx1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-ltx1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:1234" -X GET 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:12341" -X GET 
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:12341" -X GET --no-qd
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-ltx1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+vim data.txt 
+curli "d2://jobsTargetingSegments?viewer=urn%3Ali%3Amember%3A5934328" --fabric ei-ltx1 -X POST -H 'X-RestLi-Method: create' -H 'X-RestLi-Protocol-Version: 2.0.0' -d@data.txt
+curli -i --fabric ei-lca1 "d2://jobsTargetingSegments/urn:li:jobPosting:12341" -X GET --no-qd
+cat /home/ckini/.kafka-tool/kafka-tool.log
+tail -f /home/ckini/.kafka-tool/kafka-tool.log
+history | grep galene-server
+zsh 
+curli 'http://localhost:8080/search?action=search'-H'Content-Type:application/json' -d '{"request":{"paginationContext":{"numToReturn":1}, "queryContext":{ "rewrittenQuery": "+n1:ibm"}}}'{"value":{"total":1,"elements":[{"staticRank":0,"entity":"urn:li:member:1006","score":0.0,"docData":{"name":"ibm-global-services","industry":96,"url":"http://www.ibm.com"}}]}}
+curli 'http://localhost:8080/search?action=search' -H 'Content-Type:application/json' -d ' {"request": {"paginationContext": {"numToReturn": 10},"queryContext": {"rewrittenQuery": "n1:ibm"}}}
+curli 'http://localhost:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request": {"paginationContext": {"numToReturn": 10},"queryContext": {"rewrittenQuery": "n1:ibm"}}}'
+curli 'http://localhost:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request": {"paginationContext": {"numToReturn": 10},"queryContext": {"rewrittenQuery": "jobId:7658849"}}}'
+zsh 
+zsh 
+ curli -s 'http://localhost:8080/search?action=search' -H 'Content-Type:application/json' -d '{"request": {"paginationContext": {"numToReturn": 10},"queryContext": {"rewrittenQuery": "jobId:3709544"}}}'
+zsh 
+cd workspace/seas-job_trunk/
+zsh 
+history | grep sort
+history 
+cd
+zsh 
+du 
+du . 
+df . 
+du . | sort -nr | head -n10
+du -h . | sort -nr | head -n10
+cd workspace/seas-federated-search_trunk/
+git branch 
+zsh 
+history | grep du 
+du -h . | sort -nr | head -n10
+cd
+du -h . | sort -nr | head -n10
+rm -rf /local-repo/com/linkedin/seas-federated-search
+cd /workspace/seas-federated-search_trunk
+cd ./workspace/seas-federated-search_trunk
+git branch 
+cd ..
+cd
+rm -rf ./workspace/seas-federated-search_trunk/
+history | grep df
+df . 
+du -h . | sort -nr | head -n10
+rm -rf ./local-repo/com/linkedin/seas-federated-search
+du -h . | sort -nr | head -n10
+du .
+df -h . 
+zsh 
+ssh-range -f prod-lsg1 seas-jobrecommendation-broker
+zsh 
+zsh 
+zsh 
+mssh 
+zsh 
+zsh
+zsh 
+exit
